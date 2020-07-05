@@ -17,7 +17,7 @@
       },
       "hw": {
         "default_disk_size": "4G",
-        "default_snapshot_size": "256M",
+        "default_snapshot_size": "1024M",
         "nic": "e1000"
       }
     },
@@ -39,7 +39,7 @@
       },
       "hw": {
         "default_disk_size": "4G",
-        "default_snapshot_size": "256M",
+        "default_snapshot_size": "1024M",
         "nic": "e1000"
       }
     },
@@ -61,7 +61,7 @@
       },
       "hw": {
         "default_disk_size": "4G",
-        "default_snapshot_size": "256M",
+        "default_snapshot_size": "1024M",
         "nic": "e1000"
       }
     },

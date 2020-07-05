@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -ex
 # Copyright (c) 2017, Cyberhaven
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -43,7 +43,7 @@ shift
 echo "Working dir: $WORKING_DIR"
 docker run --rm -i \
   -v "$(pwd):$(pwd)" \
-  -v "$WORKING_DIR:$WORKING_DIR" -v "$SRC_DIR:$SRC_DIR" \
+  -v "$WORKING_DIR:$WORKING_DIR" \
   -v "$S2E_LINUX_KERNEL:$S2E_LINUX_KERNEL" \
   -w "$WORKING_DIR" \
   $DOCKER_IMAGE:latest \
